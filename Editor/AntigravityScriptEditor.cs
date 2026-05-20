@@ -13,7 +13,7 @@ namespace Antigravity.Editor // <--- NEW NAMESPACE
     {
         const string antigravity_argument = "antigravity_arguments"; // Unique pref keys
         const string antigravity_extension = "antigravity_userExtensions";
-        
+
         static readonly GUIContent k_ResetArguments = EditorGUIUtility.TrTextContent("Reset argument");
         string m_Arguments;
 
@@ -21,9 +21,9 @@ namespace Antigravity.Editor // <--- NEW NAMESPACE
         IGenerator m_ProjectGeneration;
 
         // ONLY look for Antigravity. We don't care about VS Code here.
-        static readonly string[] k_SupportedFileNames = { 
-            "antigravity.exe", 
-            "antigravity.app", 
+        static readonly string[] k_SupportedFileNames = {
+            "Antigravity IDE.exe",
+            "antigravity.app",
             "antigravity"
         };
 
